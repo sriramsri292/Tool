@@ -92,7 +92,7 @@ useEffect(() => {
 
       console.log('Request payload:', JSON.stringify(payload));
 
-      const response = await fetch('https://tooolback.onrender.com/tool/api', {
+      const response = await fetch('https://toolapi.onrender.com/tool/api', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -170,7 +170,7 @@ const sendRequestToBackend = async () => {
 
     console.log('Request payload:', JSON.stringify(payload));
 
-    const response = await fetch('https://tooolback.onrender.com/tool/api/tollguru/v1', {
+    const response = await fetch('https://toolapi.onrender.com/tool/api/tollguru/v1', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
